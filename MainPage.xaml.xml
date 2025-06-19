@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="CreditCalculator.MainPage"
+            BarBackgroundColor="#2196F3"
+            BarTextColor="White">
+    
+    <ContentPage Title="Калькулятор">
+        <ScrollView>
+            <StackLayout Padding="20" Spacing="10">
+                <!-- Код из предыдущего примера (вставите весь XAML) -->
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    
+    <ContentPage Title="Курсы валют">
+        <ScrollView>
+            <StackLayout Padding="20" Spacing="10">
+                <!-- Код из предыдущего примера -->
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+</TabbedPage>
